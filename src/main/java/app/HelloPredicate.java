@@ -2,6 +2,7 @@ package app;
 
 import java.util.Arrays;
 import java.util.List;
+import java.util.logging.Logger;
 
 import com.google.common.base.Predicate;
 import com.google.common.collect.Iterables;
@@ -13,7 +14,7 @@ public class HelloPredicate {
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
 
-		System.out.println("Start");
+		
 		HelloPredicate test = new HelloPredicate();
 		test.ImprimeABagatela();
 		
